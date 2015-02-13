@@ -1,2 +1,4 @@
 *.xcuserstate
 LoadingViewDemo.xcodeproj/xcuserdata
+*.xccheckout
+Pods
