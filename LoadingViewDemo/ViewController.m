@@ -39,6 +39,7 @@
     NSString *title = [self.startButton.titleLabel.text isEqualToString:@"start"] ? @"end" : @"start";
     [self.startButton setTitle:title forState:UIControlStateNormal];
     
+    //这段代码仅仅是为了测试是否会被正常dealloc
     if (self.loadingView) {
         [self.loadingView removeFromSuperview];
         self.loadingView = nil;
